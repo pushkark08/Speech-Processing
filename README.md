@@ -1,11 +1,12 @@
-# Speech-Processing
+# Meeno - Your AI Meeting Note Taker
 Insight Data Engineering PM consulting project
 
 # Idea
-Preprocess and organize a large amount of audio data to provide methods for people to translate this audio as well as detect certain sounds  within the audio.
+Meeno is an AI assistant for meeting note-taking. Meeno is able to infer who-says-what from raw meeting audio, translates speech to text and then highlights important information like action items and dates.
 
 # Purpose and Use case
-Analyse the audio data to translate it if necessary, generate text from it and summarize the text. Suppose we are really interested in a TED talk but we don't have time to hear the complete talk, reading through a summary of it to understand what it is about will be beneficial.
+It will be useful to automatically get all the details from a meeting without having to manually jot down the details and who said what.
+As an extension we can then integrate the notes with other time-tracking apps like calendar etc.
 
 # Technologies
-Spark, S3, a database
+Spark, S3, Postgres.
